@@ -18,7 +18,7 @@ public class MyEventListener implements SmartApplicationListener {
 
     @Override
     public boolean supportsEventType(Class<? extends ApplicationEvent> eventType) {
-        System.out.println("事件："+eventType.getSimpleName());
+//        System.out.println("事件："+eventType.getSimpleName());
         if(eventType != null && eventType == MyApplicationContextEvent.class){
             return true;
         }

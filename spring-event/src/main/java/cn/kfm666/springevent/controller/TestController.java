@@ -1,5 +1,6 @@
-package cn.kfm666.springevent;
+package cn.kfm666.springevent.controller;
 
+import cn.kfm666.springevent.ServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
